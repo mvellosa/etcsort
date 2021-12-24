@@ -11,7 +11,7 @@
  * @date 12/2021
  * @version 1.0
 */
-#include <alloca.h>
+#include <malloc.h>
 
 typedef int (*__etccmpr)(const void *,const void *);
 /* swap the values of 2 positions < x1 > and < x2 > of byte size < width > */

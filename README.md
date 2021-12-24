@@ -21,7 +21,7 @@ int mycmp(const void *x1, const void *x2){
 int main(void){
     int arr[] = {15, 2, 5, 13, 5, 22, 2, 6};
 
-    etcsort_merge(arr, numel, sizeof(int), mycmp);
+    etcsort_merge(arr, 10, sizeof(int), mycmp);
 }
 ```
 ____________________
