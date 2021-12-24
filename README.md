@@ -18,10 +18,12 @@ int mycmp(const void *x1, const void *x2){
     return *ix1 - *ix2;
 }
 
-int main(void){
-    int arr[] = {15, 2, 5, 13, 5, 22, 2, 6};
+#define ARRSIZE 8
 
-    etcsort_merge(arr, 10, sizeof(int), mycmp);
+int main(void){
+    int arr[ARRSIZE] = {15, 2, 5, 13, 5, 22, 2, 6};
+
+    etcsort_merge(arr, ARRSIZE, sizeof(int), mycmp);
 }
 ```
 ____________________
