@@ -6,8 +6,8 @@ ____________________
 
 This project was made as a learning experiment, therefore there are some optimizations that could be made but which would add undesired complexity to the project.
 
-## Basic example
 ____________________
+## Basic example
 
 ```c
 #include "etcsort.h"
